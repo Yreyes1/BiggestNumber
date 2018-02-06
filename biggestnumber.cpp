@@ -16,8 +16,19 @@ int main()
   cout<<"Please enter another whole number:\n";
   cin>>number2;
 
+  int biggest;
 
-  cout<<"Of those two numbers, the biggest is: ";
+  if(number1 > number2)
+{  biggest = number1; 
+ 
+}
+else
+{  biggest = number2;
+
+}
+
+  cout<<"Of those two numbers, the biggest is:";
+  cout<<biggest;
   cout<<endl<<"Thank you for playing.\n";
 
   return 0;
