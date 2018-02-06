@@ -27,7 +27,7 @@ else
 
 }
 
-  cout<<"Of those two numbers, the biggest is:";
+  cout<<"Of those two numbers, the biggest is: ";
   cout<<biggest;
   cout<<endl<<"Thank you for playing.\n";
 
